@@ -136,5 +136,6 @@ Thank you for using Racks! It makes me happy to know people are enjoying it.
 If you want to support its development and the development of other data packs, you can support me on my other social networks: 
 
 - [Youtube](https://www.youtube.com/@KawaMood/)
+- [Modrinth](https://modrinth.com/user/KawaMood)
 - [Planet Minecraft](https://www.planetminecraft.com/member/kawamood/)
 - Or if you're in a generous mood, I accept donation on [paypal](https://paypal.me/KawaMood) or [buy me a kawa](https://www.buymeacoffee.com/kawamood) (slang term for "coffee")!
