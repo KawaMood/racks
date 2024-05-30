@@ -1,9 +1,17 @@
-# **Racks**
+# **Racks V.2.2.0**
 
 **Showcase your tools!**
 
 Your tools and weapons will no longer envy the armor stands.  
 From now on, they will also have their own exhibition space!
+
+# ⚠️ This data pack is now outdated
+
+**This version of the data pack is for MC 1.20 to 1.20.4**  
+If you're using a more recent of Minecraft, check other branches of the project, or the main one to get the most update version this data pack is available on. 
+
+Note that these versions don't contain all features most recent ones do, and aren't supported anymore.
+If you're about to use them on a modified version of Minecraft (with plugins or mods), the data pack could not work as intended.
 
 # 🪄Introduction
 ## What is Racks ?
