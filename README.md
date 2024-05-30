@@ -32,8 +32,8 @@ After you crafted it, you can simply place down your rack. You can either place 
 
 In order to set a tool in it, you need to **right click** the rack while holding the item you want to place, **whithout sneaking**. To take the item back, **right click** it the same way  having your mainhand empty.
 
-Racks placed on the ground can handle: axes, hoes, pickaxes, shovels, swords, fishing rod, carrot on a stick and warped fungus on a stick.
-Racks placed on a wall can handle: axes, hoes, pickaxes, shovels, swords, bow, crossbow, trident, fishing rod, shield, shears, brush, spyglass, carrot on a stick and warped fungus on a stick.
+Racks placed on the ground can handle: axes, hoes, pickaxes, shovels, swords and fishing rod.
+Racks placed on a wall can handle: axes, hoes, pickaxes, shovels, swords, bow, crossbow, trident, fishing rod, shield, shears, brush and spyglass.
 
 **Right clicking racks while sneaking** will change their **pose** (their items rotation and position). Ground racks have 6 different poses, and wall racks have 4 different poses.
 
@@ -42,21 +42,6 @@ Racks placed on a wall can handle: axes, hoes, pickaxes, shovels, swords, bow, c
 - Ground racks have separated interaction entities for both tools, meaning you can focus the tool slot you want to update without the need of removing or adding a tool in the first slot.
 - If you wonder, of course, racks support enchanted and custom items. They keep all their items components. For tools modified with a resource pack, I can't guarantee the exhibition will show an adequate render. This depends on whether the creator of the resource pack changed the item's model or the texture's orientation, or kept them like the vanilla item.
 
-# ⚙️Settings
-
-<details>
-<summary>Ignore Wall Rack Support</summary>
-
-If enabled, racks placed on wall **ignore** the fact their block support get broken or not, and won't break if it is the case. By default, wall racks break check if their support block is removed every 10 ticks and break if it is the case. This is almost the same behavior as for paintings for example.
-
-You can **enable**, **disable** or **get** the current state of the setting using these following commands respectively:
-```
-/function pk_racks:settings/ignore_wall_rack_support/true
-/function pk_racks:settings/ignore_wall_rack_support/false
-/function pk_racks:settings/ignore_wall_rack_support/get
-```
-</details>
-
 # 🧰 Other Commands
 
 <details>
@@ -64,12 +49,12 @@ You can **enable**, **disable** or **get** the current state of the setting usin
   
 If you are an operator of your server or if cheats are enabled in your single-player world, you can give yourself a rack of any variant using these following commands:
 ```
-/function pk_racks:cmd/give/rack/<variant>
+/function pk_racks:cmd/give/<variant>
 ```
 Where `<variant>` is any type of wood, among: acacia, bamboo, birch, cherry, crimson, dark_oak, jungle, mangrove, oak, spruce and warped.
 For example, the command to give yourself an oak rack:
 ```
-/function pk_racks:cmd/give/rack/oak
+/function pk_racks:cmd/give/oak
 ```
 </details>
 <details>
@@ -82,18 +67,6 @@ If ever racks have been broken accidentally (using a `kill @e` command for examp
 The process will automatically remove all remaining entities and blocks of broken racks before placing fresh ones. All data (id, owner, type, items, variant...) will be preserved.
 It may take some time for it to complete, so be sure to get the message telling the process ended successfully before interacting with or placing a rack.
 </details>
-
-# 🔧 Update from V.2
-
-The data pack provides a process to convert all existing racks from **V.2** to **V.3**.  
-In order to do so, follow the steps written below. _I would also advice you to create a backup of your world using V.2, in case another data pack / plugin / mod accidentally breaks the updating process._
-
-1. Remove the Racks V.2 data pack from the `/datapacks/` folder of your world, **don't** uninstall V.2 upstream with the uninstall function, as you should keep its database.
-2. Upgrade your world to the desired version of Minecraft if needed, if it isn't already done.
-3. Install Racks V.3 by placing it in the `/datapacks/` forlder, then using `/reload` in game.
-4. Use this following command: `/function pk_racks:cmd/upgrade/from_v2` and wait for the updating process to end. If it managed to do so, you should get a message "Updated all racks from Racks (V.2) successfully".
-
-**Note:** Old racks items from V.2 will automatically be replaced by their V.3 equivalent when you get them in your inventory.
 
 # 🧹 Uninstall
 
@@ -144,5 +117,6 @@ Thank you for using Racks! It makes me happy to know people are enjoying it.
 If you want to support its development and the development of other data packs, you can support me on my other social networks: 
 
 - [Youtube](https://www.youtube.com/@KawaMood/)
+- [Modrinth](https://modrinth.com/user/KawaMood)
 - [Planet Minecraft](https://www.planetminecraft.com/member/kawamood/)
 - Or if you're in a generous mood, I accept donation on [paypal](https://paypal.me/KawaMood) or [buy me a kawa](https://www.buymeacoffee.com/kawamood) (slang term for "coffee")!
