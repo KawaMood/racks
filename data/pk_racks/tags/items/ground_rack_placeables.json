@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "#pk_racks:axes",
+        "#pk_racks:hoes",
+        "#pk_racks:pickaxes",
+        "#pk_racks:shovels",
+        "#pk_racks:swords",
+        "minecraft:fishing_rod"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "pk_racks:location/dimension/-1"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "pk_racks:location/dimension/0"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "pk_racks:location/dimension/1"
+        }
+    ]
+}

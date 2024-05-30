@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "pk_racks:dark_oak_rack"
+            }
+        }
+    },
+    "rewards": {
+        "function": "pk_racks:blocks/rack/actions/craft/trigger/dark_oak"
+    }
+}
