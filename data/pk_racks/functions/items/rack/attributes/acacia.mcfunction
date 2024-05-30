@@ -1,0 +1,4 @@
+#> pk_racks:items/rack/attributes/acacia
+# @writes pk:common temp.attributes data of item used to create a dynamic item into storage
+
+data modify storage pk:common temp.attributes set value {id:"minecraft:player_head",components:{"minecraft:custom_model_data":11130445,"minecraft:lore":['{"color":"dark_gray","italic":false,"text":"Acacia Rack"}'],"minecraft:item_name":'{"color":"yellow","italic":false,"text":"Acacia Rack"}',"minecraft:custom_data":{pk_data:{custom_block:1b,id:"rack",from:"racks",variant:"acacia",version:30000s}},"minecraft:profile":{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk2NDU2MGU5MDJmYTY4Y2MwNTVjNWU1OTI2MWY2ODk1NmEyMDdlMmMxMWQ1NmMzYTYwYWFhNzhlYzVmNDNmIn19fQ=="}]}},count:1}
