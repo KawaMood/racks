@@ -8,7 +8,7 @@
 # @return fail if broken by a player who is in creative mode
 execute if entity @a[tag=pk.current.player,gamemode=creative,distance=..65,limit=1] run return fail
 
-# @continue Store the created_at_gametime from the rack data, or set it to 0 if the rack was created before 4.0.0
+# @continue Store the created_at_gametime from the rack data, or set it to 0 if the rack was created before 3.0.0
 scoreboard players set $created_at_gametime pk.temp 0
 execute store result score $created_at_gametime pk.temp run data get storage pk:common temp.rack.created_at_gametime 1
 # Check if should loot

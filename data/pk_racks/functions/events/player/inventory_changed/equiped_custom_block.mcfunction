@@ -1,5 +1,5 @@
 #> pk_racks:events/player/inventory_changed/equiped_custom_block
-say Hi
+
 # Give equiped head item back in inventory
 data modify storage pk:common package.dynamic_command.args.id set from entity @s Inventory[{Slot:103b}].id
 data modify storage pk:common package.dynamic_command.args.count set from entity @s Inventory[{Slot:103b}].count

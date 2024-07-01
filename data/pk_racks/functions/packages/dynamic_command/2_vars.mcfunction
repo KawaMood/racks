@@ -2,7 +2,7 @@
 #
 # Dynamically run a command with 2 vars
 #
-# @args
+# @input args
 #   p(n): string
 #       Part(s) of the commands that are fixed
 #   v(n): (any)
