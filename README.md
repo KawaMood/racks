@@ -147,6 +147,13 @@ Before doing that, please read the F.A.Q. section just above. The issue you're f
 Thank you for using Racks! It makes me happy to know people are enjoying it.
 If you want to support its development and the development of other data packs, you can support me on my other social networks:
 
+<<<<<<< HEAD
 -   [Youtube](https://www.youtube.com/@KawaMood/)
 -   [Planet Minecraft](https://www.planetminecraft.com/member/kawamood/)
 -   Or if you're in a generous mood, I accept donation on [paypal](https://paypal.me/KawaMood) or [buy me a kawa](https://www.buymeacoffee.com/kawamood) (slang term for "coffee")!
+=======
+- [Youtube](https://www.youtube.com/@KawaMood/)
+- [Modrinth](https://modrinth.com/user/KawaMood)
+- [Planet Minecraft](https://www.planetminecraft.com/member/kawamood/)
+- Or if you're in a generous mood, I accept donation on [paypal](https://paypal.me/KawaMood) or [buy me a kawa](https://www.buymeacoffee.com/kawamood) (slang term for "coffee")!
+>>>>>>> 9b4add1ad7d3293e86cf470f9dda4ec73980f431
