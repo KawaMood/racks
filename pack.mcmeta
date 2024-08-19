@@ -1,11 +1,11 @@
 {
     "id": "pk.racks",
     "pack": {
-        "pack_format": 41,
+        "pack_format": 48,
         "supported_formats": {
-            "min_inclusive": 41,
-            "max_inclusive": 41
+            "min_inclusive": 48,
+            "max_inclusive": 48
         },
-        "description": "KawaMood's Racks V.3.0.0 for Minecraft 1.20.5 to 1.20.6"
+        "description": "KawaMood's Racks V.3.1.0 for Minecraft 1.21"
     }
 }

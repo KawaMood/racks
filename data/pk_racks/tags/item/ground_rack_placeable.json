@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+        "#minecraft:axes",
+        "#minecraft:hoes",
+        "#minecraft:pickaxes",
+        "#minecraft:shovels",
+        "#minecraft:swords",
+        "minecraft:carrot_on_a_stick",
+        "minecraft:fishing_rod",
+        "minecraft:mace",
+        "minecraft:warped_fungus_on_a_stick"
+    ]
+}
