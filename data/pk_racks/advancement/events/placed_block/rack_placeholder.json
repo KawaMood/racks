@@ -1,22 +1,22 @@
 {
-    "criteria": {
-        "requirement": {
-            "trigger": "minecraft:placed_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "predicates": {
-                                "minecraft:custom_data": "{pk_data:{custom_block:1b,id:\"rack\",from:\"racks\"}}"
-                            }
-                        }
-                    }
-                ]
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "predicates": {
+                "minecraft:custom_data": "{pk_data:{custom_block:1b,id:\"rack\",from:\"racks\"}}"
+              }
             }
-        }
-    },
-    "rewards": {
-        "function": "pk_racks:events/player/placed_block/rack_placeholder"
+          }
+        ]
+      }
     }
+  },
+  "rewards": {
+    "function": "pk_racks:events/player/placed_block/rack_placeholder"
+  }
 }
