@@ -7,6 +7,7 @@ tellraw @a[tag=pk.racks.uninstaller] [{"text": "Removed Rack at [","color": "gra
 # Remove the current rack and store item(s) in a chest
 execute store result score $temp pk.custom_block.component.id run data get storage pk:racks uninstall.rack
 data modify storage pk:common temp.rack set from storage pk:racks uninstall.rack
+execute store result score $temp pk.custom_block.component.id run data get storage pk:racks temp.rack.id
 execute as @e[type=marker,tag=pk.racks.block.rack.controller,predicate=pk_racks:scores/custom_block/component_id_match,dx=0] at @s run function pk_racks:_main/uninstall/single/_run
 
 # Unload the chunk if needed
