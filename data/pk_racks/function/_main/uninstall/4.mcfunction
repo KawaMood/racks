@@ -1,6 +1,6 @@
 #> pk_racks:_main/uninstall/4
 
-# Check if the chunk of the waystone to remove is loaded
+# Check if the chunk of the rack to remove is loaded
 scoreboard players set $is_loaded pk.temp 0
 $execute in $(dimension) if loaded $(x) $(y) $(z) run scoreboard players set $is_loaded pk.temp 1
 
