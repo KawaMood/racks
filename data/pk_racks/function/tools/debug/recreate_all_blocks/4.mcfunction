@@ -15,7 +15,7 @@ execute if score $is_loaded pk.temp matches 0 run return fail
 # @continue If yes, recreate current block
 $execute unless score $is_loaded pk.temp matches 0 in $(dimension) positioned $(x).0 $(y).0 $(z).0 run function pk_racks:tools/debug/recreate_all_blocks/id/$(block_id)
 
-tellraw @a[tag=pk.debug.recreate] [{"text": "Recreated \"","color": "gray"},{"nbt":"debug.recreate.block_id","storage":"pk:common"},{"text": "\" at ["},{"nbt":"debug.recreate.block.location.x","storage":"pk:common"},{"text": ","},{"nbt":"debug.recreate.block.location.y","storage":"pk:common"},{"text": ","},{"nbt":"debug.recreate.block.location.z","storage":"pk:common"},{"text": "] in "},{"nbt":"debug.recreate.block.location.dimension","storage":"pk:common"}]
+tellraw @a[tag=pk.debug.recreate] [{text: "Recreated \"",color: "gray"},{nbt:"debug.recreate.block_id",storage:"pk:common"},{text: "\" at ["},{nbt:"debug.recreate.block.location.x",storage:"pk:common"},{text: ","},{nbt:"debug.recreate.block.location.y",storage:"pk:common"},{text: ","},{nbt:"debug.recreate.block.location.z",storage:"pk:common"},{text: "] in "},{nbt:"debug.recreate.block.location.dimension",storage:"pk:common"}]
 
 # Unload the chunk if needed
 execute if score $pk.debug.recreate.chunk.already_forceload pk.value matches 0 run forceload remove ~ ~

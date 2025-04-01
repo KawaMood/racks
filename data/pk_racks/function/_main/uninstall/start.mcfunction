@@ -1,8 +1,13 @@
 #> pk_racks:_main/uninstall/start
 
-tag @s add pk.racks.uninstaller
-tellraw @s [{"text": "Starting ","color": "gray"},{"text": "KawaMood's Racks","color": "aqua","bold": true},{"text": " uninstallation...","color": "gray"}]
-execute store result score $pk.racks.uninstall.racks.length pk.value run data get storage pk:racks database.blocks.racks
-data modify storage pk:racks uninstall.racks set from storage pk:racks database.blocks.racks
-execute if score $pk.racks.uninstall.racks.length pk.value matches 0 run function pk_racks:_main/uninstall/stop
-execute if score $pk.racks.uninstall.racks.length pk.value matches 1.. run function pk_racks:_main/uninstall/1
+# @return check if an uninstalling process is already running
+execute if score $uninstall pk.value matches 1 run return run tellraw @s {text: "An uninstalling process is already running",color:"red"}
+
+# Set uninstalling process score
+scoreboard players set $uninstall pk.value 1
+
+# Mark player
+tag @s add pk.uninstall
+
+# Remove racks
+function pk_racks:_main/uninstall/feature/start {feature_storage_path:"pk:racks database.blocks.racks",callback:"function pk_racks:_main/uninstall/callback/after_removing_racks",feature_id:"rack"}

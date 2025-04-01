@@ -1,7 +1,7 @@
 #> pk_racks:tools/upgrade/from_v2/blocks/4
 
 # Logs
-tellraw @a[tag=pk.update_from_v2,limit=1] [{"text": "Updated \"rack\" at [","color": "gray"},{"nbt":"update.new_entry.location.x","storage":"pk:common"},{"text": ","},{"nbt":"update.new_entry.location.y","storage":"pk:common"},{"text": ","},{"nbt":"update.new_entry.location.z","storage":"pk:common"},{"text": "] in "},{"nbt":"update.new_entry.location.dimension","storage":"pk:common"}]
+tellraw @a[tag=pk.update_from_v2,limit=1] [{text: "Updated \"rack\" at [",color: "gray"},{nbt:"update.new_entry.location.x",storage:"pk:common"},{text: ","},{nbt:"update.new_entry.location.y",storage:"pk:common"},{text: ","},{nbt:"update.new_entry.location.z",storage:"pk:common"},{text: "] in "},{nbt:"update.new_entry.location.dimension",storage:"pk:common"}]
 
 # Store items from display entities
 data modify storage pk:common update.new_entry.items[0] set from entity @e[type=item_display,tag=pk.racks.rack.item,tag=pk.item.1,distance=..2,limit=1,sort=nearest] item

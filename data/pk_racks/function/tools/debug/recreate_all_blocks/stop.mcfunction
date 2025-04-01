@@ -2,7 +2,7 @@
 # @context the player who had run the recreate process
 
 # Logs
-tellraw @a[tag=pk.debug.recreate] [{"text": "Recreated all \"","color": "gray"},{"nbt":"debug.recreate.block_id","storage":"pk:common"},{"text": "\" blocks successfully"}]
+tellraw @a[tag=pk.debug.recreate] [{text: "Recreated all \"",color: "gray"},{nbt:"debug.recreate.block_id",storage:"pk:common"},{text: "\" blocks successfully"}]
 
 # Reset score
 scoreboard players reset $debugging pk.value

@@ -8,7 +8,7 @@ advancement revoke @s only pk_racks:events/placed_block/rack_placeholder
 # Mark the current player
 tag @s add pk.current.player
 
-# Store item data the player used to place the Waystone and tell the process it has been placed by a player
+# Store item data the player used to place the rack and tell the process it has been placed by a player
 data modify storage pk:common temp.item set from entity @s SelectedItem
 
 # Search the placed block

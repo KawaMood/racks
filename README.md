@@ -15,8 +15,8 @@ Racks allow you to showcase your tool and weapons, so you don't need to hide the
 
 Racks can be crafted using:
 
--   2 **Sticks**
--   3 **Planks** of any wood (oak, dark oak, spruce, bamboo, cherry, warped, etc.)
+- 2 **Sticks**
+- 3 **Planks** of any wood (oak, dark oak, spruce, bamboo, cherry, warped, etc.)
 
 The recipe is the following:
 
@@ -33,8 +33,8 @@ Racks placed on a wall can handle: axes, hoes, pickaxes, shovels, swords, bow, c
 
 ## Misc. information about racks
 
--   Ground racks have separated interaction entities for both tools, meaning you can focus the tool slot you want to update without the need of removing or adding a tool in the first slot.
--   If you wonder, of course, racks support enchanted and custom items. They keep all their items components. For tools modified with a resource pack, I can't guarantee the exhibition will show an adequate render. This depends on whether the creator of the resource pack changed the item's model or the texture's orientation, or kept them like the vanilla item.
+- Ground racks have separated interaction entities for both tools, meaning you can focus the tool slot you want to update without the need of removing or adding a tool in the first slot.
+- If you wonder, of course, racks support enchanted and custom items. They keep all their items components. For tools modified with a resource pack, I can't guarantee the exhibition will show an adequate render. This depends on whether the creator of the resource pack changed the item's model or the texture's orientation, or kept them like the vanilla item.
 
 # ⚙️Settings
 
@@ -98,10 +98,10 @@ In order to do so, follow the steps written below. _I would also advice you to c
 
 Racks comes with an automatic uninstallation process. Running it will:
 
--   Remove all racks that have been placed in your world, in every dimensions
--   Store potential items racks contained in a chest at their location
--   Remove all scores and storage specific to the Racks data pack
--   If there is no more KawaMood data packs installed, also remove all common scores and storages
+- Remove all racks that have been placed in your world, in every dimensions
+- Store potential items racks contained in a chest at their location
+- Remove all scores and storage specific to the Racks data pack
+- If there is no more KawaMood data packs installed, also remove all common scores and storages
 
 The uninstalling process may take some seconds to complete. Be sure to wait for the message telling you that you can safely remove the data pack from your world's folder before doing it.
 
@@ -132,13 +132,13 @@ If you accidentally used a content that required to be online the first time you
 
 If you encountered an issue with this data pack, preferably join the [Discord server](https://discord.com/invite/w8s9XWgN6v), and open a post in the dedicated **#data-pack-issues** channel to describe your problem. Please, don't forget to provide all necessary informations including:
 
--   The Minecraft version you're using.
--   The version of the concerned data pack you're using.
--   If you're using any modified version like Forge, Paper or Spigot.
--   If you do, the plugins or mods you're using that may alter the functioning of data packs.
--   The list of other data packs you're using, if you have others.
--   A clear description of your issue, and a way to reproduce it.
--   If necessary, a video or a screenshot of the issue in game.
+- The Minecraft version you're using.
+- The version of the concerned data pack you're using.
+- If you're using any modified version like Forge, Paper or Spigot.
+- If you do, the plugins or mods you're using that may alter the functioning of data packs.
+- The list of other data packs you're using, if you have others.
+- A clear description of your issue, and a way to reproduce it.
+- If necessary, a video or a screenshot of the issue in game.
 
 Before doing that, please read the F.A.Q. section just above. The issue you're facing may be a common one, and a way to fix it may already have been provided in it.
 
@@ -147,6 +147,6 @@ Before doing that, please read the F.A.Q. section just above. The issue you're f
 Thank you for using Racks! It makes me happy to know people are enjoying it.
 If you want to support its development and the development of other data packs, you can support me on my other social networks:
 
--   [Youtube](https://www.youtube.com/@KawaMood/)
--   [Planet Minecraft](https://www.planetminecraft.com/member/kawamood/)
--   Or if you're in a generous mood, I accept donation on [paypal](https://paypal.me/KawaMood) or [buy me a kawa](https://www.buymeacoffee.com/kawamood) (slang term for "coffee")!
+- [Youtube](https://www.youtube.com/@KawaMood/)
+- [Planet Minecraft](https://www.planetminecraft.com/member/kawamood/)
+- Or if you're in a generous mood, I accept donation on [paypal](https://paypal.me/KawaMood) or [buy me a kawa](https://www.buymeacoffee.com/kawamood) (slang term for "coffee")!

@@ -4,6 +4,9 @@
 #
 # @context player who placed the placeholder of the custom block, at the placeholder
 
+# Cancel process if there is already a rack here
+execute if block ~ ~ ~ player_wall_head align xyz if entity @n[type=marker,tag=pk.racks.block.rack.controller,dx=0] run return run function pk_racks:blocks/rack/actions/create/cancel
+
 # Construct
 #   Set args
 data modify storage pk:common constructor_args.variant set from block ~ ~ ~ components."minecraft:custom_data".pk_data.variant

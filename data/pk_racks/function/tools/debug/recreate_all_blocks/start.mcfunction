@@ -11,7 +11,7 @@
 #           dimension (string): dimension of the block
 
 # Check if an update is in progress
-execute if score $debugging pk.value matches 1 run tellraw @s {"text": "Error: Another debug is already in progress.","color": "red"}
+execute if score $debugging pk.value matches 1 run tellraw @s {text: "Error: Another debug is already in progress.",color: "red"}
 execute if score $debugging pk.value matches 1 run return fail
 
 # @continue Prepare data
@@ -23,7 +23,7 @@ $data modify storage pk:common debug.recreate.fallback set value "$(fallback)"
 scoreboard players set $debugging pk.value 1
 
 # Logs
-tellraw @s [{"text": "Starting to recreate all \"","color": "gray"},{"nbt":"debug.recreate.block_id","storage":"pk:common"},{"text": "\" blocks ..."}]
+tellraw @s [{text: "Starting to recreate all \"",color: "gray"},{nbt:"debug.recreate.block_id",storage:"pk:common"},{text: "\" blocks ..."}]
 
 # Mark debugger
 tag @s add pk.debug.recreate
