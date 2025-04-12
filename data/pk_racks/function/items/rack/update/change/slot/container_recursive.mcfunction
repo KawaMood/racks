@@ -2,8 +2,9 @@
 
 # Update the current item
 data modify storage pk:common temp.args.slot set from storage pk:common temp.container[-1].Slot
-execute summon armor_stand run function pk_racks:items/rack/update/change/slot/container with storage pk:common temp.args
+function pk_racks:items/rack/update/change/slot/container_concat_args_slot with storage pk:common temp.args 
+execute summon armor_stand run function pk_racks:items/rack/update/change/slot/single with storage pk:common temp.args
 
 # Recursive call
 data remove storage pk:common temp.container[-1]
-execute if data storage pk:common temp.container[{}] run function pk_racks:items/rack/update/change/slot/container_recursive
+execute if data storage pk:common temp.container[0] run function pk_racks:items/rack/update/change/slot/container_recursive

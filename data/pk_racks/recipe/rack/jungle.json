@@ -11,21 +11,20 @@
       "minecraft:custom_model_data": {
         "strings": ["pk_racks:jungle_rack"]
       },
-      "minecraft:lore": [
-        { "color": "dark_gray", "italic": false, "text": "Jungle Rack" }
-      ],
+      "minecraft:lore": [{ "color": "dark_gray", "italic": false, "text": "Jungle Rack" }],
       "minecraft:item_name": {
         "color": "yellow",
         "italic": false,
         "text": "Jungle Rack"
       },
+      "!minecraft:equippable": {},
       "minecraft:custom_data": {
         "pk_data": {
           "custom_block": 1,
           "id": "rack",
           "from": "racks",
           "variant": "jungle",
-          "version": 30001
+          "version": 30104
         }
       },
       "minecraft:profile": {
