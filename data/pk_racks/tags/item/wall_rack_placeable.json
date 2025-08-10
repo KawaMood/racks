@@ -1,5 +1,4 @@
 {
-  "replace": false,
   "values": [
     "#minecraft:axes",
     "#minecraft:hoes",
@@ -10,11 +9,11 @@
     "minecraft:carrot_on_a_stick",
     "minecraft:crossbow",
     "minecraft:fishing_rod",
+    "minecraft:mace",
     "minecraft:shears",
     "minecraft:shield",
     "minecraft:spyglass",
     "minecraft:trident",
-    "minecraft:mace",
     "minecraft:warped_fungus_on_a_stick"
   ]
 }

@@ -7,5 +7,5 @@
 # @context At the block to recreate
 
 data modify storage pk:common temp.rack set from storage pk:common debug.recreate.block
-function pk_racks:blocks/rack/actions/remove/_run
+function pk_racks:blocks/rack/actions/delete/_run
 function pk_racks:blocks/rack/actions/place/_run

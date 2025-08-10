@@ -36,7 +36,7 @@ execute store result score $pose pk.temp run data get storage pk:common temp.rac
 scoreboard players add $pose pk.temp 1
 #   Ground rack (max 5)
 execute if score $type.ground pk.temp matches 1 if score $pose pk.temp matches 6.. run scoreboard players set $pose pk.temp 0
-#   Wall rack (max 1)
+#   Wall rack (max 3)
 execute if score $type.ground pk.temp matches 0 if score $pose pk.temp matches 4.. run scoreboard players set $pose pk.temp 0
 
 # @continue Update data

@@ -3,8 +3,8 @@
     "pack_format": 71,
     "supported_formats": {
       "min_inclusive": 71,
-      "max_inclusive": 71
+      "max_inclusive": 86
     },
-    "description": "KawaMood's Racks V.3.1.4 for Minecraft 1.21.5"
+    "description": "KawaMood's Racks V.3.1.5 for Minecraft 1.21.5"
   }
 }

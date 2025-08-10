@@ -24,6 +24,9 @@ data remove entity @s item
 execute if entity @s[tag=pk.racks.block.rack.part.left] if data storage pk:common temp.rack.items[0].id run data modify entity @s item set from storage pk:common temp.rack.items[0]
 execute if entity @s[tag=pk.racks.block.rack.part.right] if data storage pk:common temp.rack.items[1].id run data modify entity @s item set from storage pk:common temp.rack.items[1]
 
+# Reset item_display
+data remove entity @s item_display
+
 # Store pose in score
 execute store result score $pose pk.temp run data get storage pk:common temp.rack.pose
 
