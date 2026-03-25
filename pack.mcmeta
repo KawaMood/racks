@@ -1,7 +1,7 @@
 {
   "pack": {
-    "min_format": [82, 0],
-    "max_format": [88, 0],
-    "description": "KawaMood's Racks V.3.1.5 for Minecraft 1.21.9"
+    "min_format": [94, 1],
+    "max_format": [94, 1],
+    "description": "KawaMood's Racks V.3.2.0 for Minecraft 1.21.11"
   }
 }
