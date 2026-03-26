@@ -1,6 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["PPP", "S S"],
+  "pattern": [
+    "PPP",
+    "S S"
+  ],
   "key": {
     "P": "minecraft:dark_oak_planks",
     "S": "minecraft:stick"
@@ -9,9 +12,17 @@
     "id": "minecraft:player_head",
     "components": {
       "minecraft:custom_model_data": {
-        "strings": ["pk_racks:dark_oak_rack"]
+        "strings": [
+          "pk_racks:dark_oak_rack"
+        ]
       },
-      "minecraft:lore": [{ "color": "dark_gray", "italic": false, "text": "Dark Oak Rack" }],
+      "minecraft:lore": [
+        {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Dark Oak Rack"
+        }
+      ],
       "minecraft:item_name": {
         "color": "yellow",
         "italic": false,

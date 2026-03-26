@@ -1,6 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": ["PPP", "S S"],
+  "pattern": [
+    "PPP",
+    "S S"
+  ],
   "key": {
     "P": "minecraft:jungle_planks",
     "S": "minecraft:stick"
@@ -9,9 +12,17 @@
     "id": "minecraft:player_head",
     "components": {
       "minecraft:custom_model_data": {
-        "strings": ["pk_racks:jungle_rack"]
+        "strings": [
+          "pk_racks:jungle_rack"
+        ]
       },
-      "minecraft:lore": [{ "color": "dark_gray", "italic": false, "text": "Jungle Rack" }],
+      "minecraft:lore": [
+        {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Jungle Rack"
+        }
+      ],
       "minecraft:item_name": {
         "color": "yellow",
         "italic": false,
