@@ -1,4 +1,9 @@
 {
   "replace": false,
-  "values": [{ "required": false, "id": "pk_racks:_main/load" }]
+  "values": [
+    {
+      "required": false,
+      "id": "pk_racks:_main/load"
+    }
+  ]
 }

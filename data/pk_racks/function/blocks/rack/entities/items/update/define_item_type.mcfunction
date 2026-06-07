@@ -4,6 +4,7 @@ execute if items entity @s container.0 #minecraft:axes run return run data modif
 execute if items entity @s container.0 #minecraft:hoes run return run data modify storage pk:common temp.update_args.item_type set value "hoe"
 execute if items entity @s container.0 #minecraft:pickaxes run return run data modify storage pk:common temp.update_args.item_type set value "pickaxe"
 execute if items entity @s container.0 #minecraft:shovels run return run data modify storage pk:common temp.update_args.item_type set value "shovel"
+execute if items entity @s container.0 #minecraft:spears run return run data modify storage pk:common temp.update_args.item_type set value "spear"
 execute if items entity @s container.0 #minecraft:swords run return run data modify storage pk:common temp.update_args.item_type set value "sword"
 execute if items entity @s container.0 minecraft:bow run return run data modify storage pk:common temp.update_args.item_type set value "bow"
 execute if items entity @s container.0 minecraft:carrot_on_a_stick run return run data modify storage pk:common temp.update_args.item_type set value "carrot_on_a_stick"
