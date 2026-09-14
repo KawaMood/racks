@@ -34,7 +34,7 @@ execute store result score @s pk.custom_block.component.id run data get storage 
 #   transformation
 $data merge entity @s {transformation:$(transformation)}
 #   block_state
-$data modify entity @s block_state.Name set value "minecraft:$(variant)_fence"
+$data modify entity @s block_state set value "minecraft:$(variant)_fence"
 
 # Rotate
 $tp @s ~ ~ ~ $(y_rotation) 0

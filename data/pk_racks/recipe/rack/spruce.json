@@ -9,8 +9,21 @@
     "S": "minecraft:stick"
   },
   "result": {
-    "id": "minecraft:player_head",
+    "id": "minecraft:glow_item_frame",
     "components": {
+      "minecraft:entity_data": {
+        "id": "minecraft:glow_item_frame",
+        "Invisible": true,
+        "Tags": [
+          "pk.racks",
+          "pk.racks.block_placer"
+        ],
+        "data": {
+          "id": "rack",
+          "variant": "spruce"
+        }
+      },
+      "minecraft:item_model": "minecraft:player_head",
       "minecraft:custom_model_data": {
         "strings": [
           "pk_racks:spruce_rack"
@@ -35,7 +48,7 @@
           "id": "rack",
           "from": "racks",
           "variant": "spruce",
-          "version": 30104
+          "version": 30300
         }
       },
       "minecraft:profile": {

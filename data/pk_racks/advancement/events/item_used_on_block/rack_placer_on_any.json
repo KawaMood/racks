@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:glow_item_frame"
+            ],
+            "predicates": {
+              "custom_data": {
+                "pk_data": {
+                  "custom_block": 1,
+                  "id": "rack",
+                  "from": "racks"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pk_racks:events/player/item_used_on_block/rack_placer_on_any/run"
+  }
+}

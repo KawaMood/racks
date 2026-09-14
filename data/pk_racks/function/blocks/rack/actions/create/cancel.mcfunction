@@ -1,10 +1,7 @@
 #> pk_racks:blocks/rack/actions/create/cancel
 
-# Set the current block as air
-setblock ~ ~ ~ air
-
 # Stop the process if the player is in creative mode
-execute if entity @s[gamemode=creative] run return 1
+execute if entity @s[gamemode=creative] run return fail
 
 # Give item back to the player
 data modify storage pk:common temp.args.id set from storage pk:common temp.item.id

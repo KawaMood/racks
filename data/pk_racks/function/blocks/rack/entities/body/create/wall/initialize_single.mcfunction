@@ -34,8 +34,8 @@ execute store result score @s pk.custom_block.component.id run data get storage 
 $data merge entity @s {transformation:$(transformation)}
 #   block_state
 $scoreboard players set $body_part.id pk.temp $(id)
-$execute if score $body_part.id pk.temp matches ..2 run data modify entity @s block_state.Name set value "minecraft:$(variant)_button"
-$execute if score $body_part.id pk.temp matches 3.. run data modify entity @s block_state.Name set value "minecraft:$(variant)_fence"
+$execute if score $body_part.id pk.temp matches ..2 run data modify entity @s block_state set value "minecraft:$(variant)_button"
+$execute if score $body_part.id pk.temp matches 3.. run data modify entity @s block_state set value "minecraft:$(variant)_fence"
 
 # Rotate
 $tp @s ~ ~ ~ $(y_rotation) 0

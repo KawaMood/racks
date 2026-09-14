@@ -12,4 +12,4 @@
 #   slot: string
 #       The slot
 
-$loot replace entity @s $(slot) loot {pools:[{rolls:1,entries:[{type:"item",name:"$(id)",functions:[{function:"set_components",components:$(components)},{function:"set_count",count:$(count)}]}]}]}
+$loot replace entity @s $(slot) loot {pools:[{rolls:1,entries:[{type:"item",name:"$(id)",modifier:[{type:"set_components",components:$(components)},{type:"set_count",count:$(count)}]}]}]}
