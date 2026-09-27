@@ -10,7 +10,8 @@ execute if entity @n[type=marker,tag=pk.racks.block.rack.controller,dx=0] run re
 # Construct
 #   Set args
 data modify storage pk:common constructor_args.variant set from storage pk:common temp.block_placer_entity.data.variant
-execute if block ~ ~ ~ player_wall_head run function pk_racks:blocks/rack/actions/create/set_args_wall
+execute store result score $facing pk.temp run data get storage pk:common temp.block_placer_entity.Facing
+execute if score $facing pk.temp matches 2.. run function pk_racks:blocks/rack/actions/create/set_args_wall
 #   Set rack data in: storage pk:common output.rack
 function pk_racks:blocks/rack/data/create/_run
 
