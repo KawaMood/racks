@@ -4,8 +4,11 @@
 #
 # @context player who placed the placer of the custom block, at the placer
 
-# Cancel process if there is already a rack here
+# Cancel
+#   If there is already a rack here
 execute if entity @n[type=marker,tag=pk.racks.block.rack.controller,dx=0] run return run function pk_racks:blocks/rack/actions/create/cancel
+#   If the block isn't replaceable
+execute unless block ~ ~ ~ #replaceable run return run function pk_racks:blocks/rack/actions/create/cancel
 
 # Construct
 #   Set args
