@@ -9,5 +9,5 @@
 #       version: string
 #           The data pack's current literal version
 
-scoreboard players set $pk.racks.version pk.value 30301
-data modify storage pk:common installed_datapacks[{id:"racks"}].version set value "3.3.1"
+scoreboard players set $pk.racks.version pk.value 30302
+data modify storage pk:common installed_datapacks[{id:"racks"}].version set value "3.3.2"
